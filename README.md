@@ -14,10 +14,11 @@ This is the Java version workable in a Kotlin Jetpack compose app
 ## Overview
 - 1 : main page word not setup
 - 2 : part of speech : noun for the word "set"
-- 2 : part of speech : verb for the word "set"
-- 2 : part of speech : adjective for the word "set"
-<img src="/screenshots/screen1.png" alt="main page word not setup" height="300">&emsp;
-<img src="/screenshots/screen2.png" alt="part of speech noun for the word set" height="300">&emsp;
-<img src="/screenshots/screen3.png" alt="part of speech verb for the word set" height="300">&emsp;
-<img src="/screenshots/screen4.png" alt="part of speech adjective for the word set" height="300">&emsp;
+- 3 : part of speech : verb for the word "set"
+- 4 : part of speech : adjective for the word "set"
+
+<img src="/screenshots/screen1.png" alt="main page word not setup" height="400">&emsp;
+<img src="/screenshots/screen2.png" alt="part of speech noun for the word set" height="400">&emsp;
+<img src="/screenshots/screen3.png" alt="part of speech verb for the word set" height="400">&emsp;
+<img src="/screenshots/screen4.png" alt="part of speech adjective for the word set" height="400">&emsp;
 
