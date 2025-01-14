@@ -22,3 +22,22 @@ This is the Java version workable in a Kotlin Jetpack compose app
 <img src="/screenshots/screen3.png" alt="part of speech verb for the word set" height="400">&emsp;
 <img src="/screenshots/screen4.png" alt="part of speech adjective for the word set" height="400">&emsp;
 
+# Init
+
+## Libraries implementation
+`jwnl-2.0.5.jar` needs some 3rd part libs to work that require some other ones and so on.
+
+- create `libs` folder in `app` one and copy paste these 7 java libraries in it.
+- modify in "app level" build.gradle.kts then sync
+``` kotlin
+dependencies {
+	...
+	implementation(files("libs/extjwnl-2.0.5.jar"))
+    implementation(files("libs/extjwnl-data-wn31-1.2.jar"))
+    implementation(files("libs/extjwnl-utilities-2.0.5.jar"))
+    implementation(files("libs/slf4j-api-1.7.32.jar"))
+    implementation(files("libs/slf4j-log4j12-1.7.32.jar"))
+    implementation(files("libs/log4j-1.2.17.jar"))
+    implementation(files("libs/concurrentlinkedhashmap-lru-1.3.2.jar"))
+}
+```
